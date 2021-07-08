@@ -2,20 +2,22 @@ function contactForm(el) {
   const contactComponent = document.createElement("div");
   contactComponent.classList = "contact-component";
   contactComponent.innerHTML = `
+    <!--  
     <h2 class="contact__title">
         Escribime
     </h2>
+    -->
     <form class="form">
-        <label class="form__label" for="name">NOMBRE
+        <label class="form__label" for="name">NAME
             <input name="name" type="text" class="form__input" id="name">
         </label>
         <label class="form__label" for="mail">EMAIL
             <input name="email" type="email" class="form__input" id="email">
         </label>
-        <label class="form__label" for="message">MENSAJE
+        <label class="form__label" for="message">MESSAGE
             <textarea name="message" class="form__input  form__area" id="message"></textarea>
         </label>
-        <button class="form__button">Enviar</button>
+        <button class="form__button">SEND</button>
     </form> 
     `;
   el.appendChild(contactComponent);

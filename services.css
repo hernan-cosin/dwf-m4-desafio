@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-content {
+  height: auto;
+  background-color: #000;
+}
+
+@media (min-width: 769px) {
+  .main-content {
+    background: linear-gradient(
+      107.17deg,
+      #958c40 29.35%,
+      rgba(156, 0, 210, 0.8) 78.73%
+    );
+  }
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.services {
+  overflow: auto;
+  max-width: 1280px;
+  margin: 0 auto;
+  /* border: solid; */
+}
+
+@media (min-width: 769px) {
+  .services {
+  }
+}
+
+.services-cont {
+  /* display: flex; */
+  /* border: solid; */
+}
+
+.services__title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  /* border: solid; */
+  margin: 0;
+  padding: 100px 0;
+}
+
+@media (min-width: 769px) {
+  .services__title {
+    padding: 240px 0 240px 85px;
+    text-align: left;
+  }
+}
+
+.services-max-container {
+  background-color: #000;
+}
+
+.services-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* border: solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .services-container {
+    flex-direction: row;
+    align-items: unset;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* column-gap: 50px; */
+  }
+}
+
+.services-card__cont {
+  /* border: solid purple; */
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .services-card__cont {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px 0 30px;
+  }
+}
+
+.services-card {
+  width: 290px;
+  color: white;
+  margin-bottom: 105px;
+}
+
+.services-card__img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  /* border: solid white; */
+}
+
+.services-card__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.services-card__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.services-card__link {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #fc6f50;
+  margin-top: 16px;
+  display: block;
+}
+
+.footer-container {
+  background-color: #2c2c2c;
+}

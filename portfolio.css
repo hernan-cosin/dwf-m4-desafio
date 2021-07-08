@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-content {
+  height: auto;
+  background-color: #000;
+}
+
+@media (min-width: 769px) {
+  .main-content {
+    background: linear-gradient(
+      107.17deg,
+      #958c40 29.35%,
+      rgba(156, 0, 210, 0.8) 78.73%
+    );
+  }
+}
+
+.header-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  overflow: auto;
+  max-width: 1280px;
+  margin: 0 auto;
+  /* border: solid; */
+}
+
+@media (min-width: 769px) {
+  .portfolio {
+  }
+}
+
+.portfolio-cont {
+  /* display: flex; */
+  /* border: solid; */
+}
+
+.portfolio__title {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  /* border: solid; */
+  margin: 0;
+  padding: 100px 0;
+}
+
+@media (min-width: 769px) {
+  .portfolio__title {
+    padding: 240px 0 240px 85px;
+    text-align: left;
+  }
+}
+
+.portfolio-max-container {
+  background-color: #000;
+}
+
+.portfolio-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* border: solid rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .portfolio-container {
+    flex-direction: row;
+    align-items: unset;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* column-gap: 50px; */
+  }
+}
+
+.portfolio-card__cont {
+  /* border: solid purple; */
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .portfolio-card__cont {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 30px 0 30px;
+  }
+}
+
+.portfolio-card {
+  width: 290px;
+  color: white;
+  margin-bottom: 105px;
+}
+
+.portfolio-card__img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  /* border: solid white; */
+}
+
+.portfolio-card__title {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.portfolio-card__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+}
+
+.portfolio-card__link {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #fc6f50;
+  margin-top: 16px;
+  display: block;
+}
+
+.footer-container {
+  background-color: #2c2c2c;
+}
