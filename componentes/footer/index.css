@@ -4,8 +4,6 @@
   max-width: 1280px;
   margin: 0 auto;
   height: 100%;
-  /* background-color: #2c2c2c; */
-  /* border: solid; */
 }
 
 @media (min-width: 769px) {
@@ -32,7 +30,6 @@
 }
 
 .footer__social-media-container {
-  /* border: solid; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +37,6 @@
 
 @media (min-width: 769px) {
   .footer__social-media-container {
-    /* border: solid; */
     display: flex;
     justify-content: center;
     align-items: center;
