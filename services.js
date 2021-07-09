@@ -1,12 +1,11 @@
 function getDataServices() {
   fetch(
-    "https://cdn.contentful.com/spaces/pf2bymbjat56/environments/master/entries?access_token=k8KcxLMhYxYxhX27hNbM6jAh98Yk6YBmz9xdX3URhyo&content_type=service"
+    "https://cdn.contentful.com/spaces/pf2bymbjat56/environments/master/entries?access_token=k8KcxLMhYxYxhX27hNbM6jAh98Yk6YBmz9xdX3URhyo&content_type=servicePage"
   )
     .then((res) => {
       return res.json();
     })
     .then((res) => {
-      // console.log(res);
       cloneAndDisplayServices(res);
     });
 }
@@ -22,7 +21,6 @@ function cloneAndDisplayServices(data) {
     const servicesCardDescription = clone.querySelector(
       ".services-card__description"
     );
-    const servicesCardLink = clone.querySelector(".services-card__link");
 
     servicesCardImg.src = getImg(data, s.fields.img.sys.id);
     servicesCardTitle.textContent = s.fields.title;
