@@ -30,6 +30,13 @@ body {
   color: #fff;
 }
 
+@media (orientation: landscape) {
+  .wellcome__hgroup {
+    margin: 50px auto;
+    height: auto;
+  }
+}
+
 .wellcome__hgroup__title {
   font-family: "Montserrat", sans-serif;
   font-size: 48px;
