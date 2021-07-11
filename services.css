@@ -94,6 +94,7 @@ body {
 
 .services-card__img {
   width: 100%;
+  min-height: 146px;
   object-fit: cover;
   border-radius: 5px;
 }
